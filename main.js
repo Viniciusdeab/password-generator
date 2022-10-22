@@ -20,7 +20,7 @@ function getUppercase(){
 };
 
 function getNumber(){
-    return numbers[Math.floor(Math.random * numbers.length)];
+    return numbers[Math.floor(Math.random() * numbers.length)];
 };
 
 function getSymbol(){
